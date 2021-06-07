@@ -110,3 +110,12 @@ a:hover {
 @media (min-width: 48em) {
     
 }
+
+footer ul{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	width: 100%;
+	justify-content: space-around;
+	font-family: "Roboto", sans-serif;
+}
