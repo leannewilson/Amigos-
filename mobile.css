@@ -18,6 +18,7 @@ a {
 
 a:hover {
 	color: aqua;
+	animation: backwards;
 }
 
 #menuToggle {
@@ -147,3 +148,5 @@ footer ul{
 	justify-content: space-evenly;
 	font-family: "Roboto", sans-serif;
 }
+
+
