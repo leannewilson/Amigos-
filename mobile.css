@@ -89,7 +89,7 @@ a:hover {
 	padding: 50px;
 	padding-top: 125px;
 	right: -100px;
-	background: #ededed; 
+	background: #ededed;
 	list-style-type: none;
 	-webkit-font-smoothing: antialiased;
 	transform-origin: 0% 0%;
@@ -100,6 +100,9 @@ a:hover {
 #menu li {
 	padding: 10px 0;
 	font-size: 22px;
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 50px;
 }
 
 #menuToggle input:checked~ul {

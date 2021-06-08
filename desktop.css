@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: row;
     list-style: none;
-    justify-content: center;
+    justify-content: flex-end;
     font-size: 22px;
 }
 
