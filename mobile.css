@@ -31,6 +31,8 @@ a {
 
 a:hover {
 	color: aqua;
+	animation: backwards;
+		
 }
 
 #menuToggle {
@@ -113,9 +115,7 @@ a:hover {
 #menu li {
 	padding: 10px 0;
 	font-size: 22px;
-	display: flex;
-	justify-content: flex-end;
-	padding-right: 50px;
+
 }
 
 #menuToggle input:checked~ul {
@@ -160,3 +160,6 @@ footer ul{
 	justify-content: space-evenly;
 	font-family: "Roboto", sans-serif;
 }
+
+
+
