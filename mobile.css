@@ -111,6 +111,26 @@ a:hover {
     
 }
 
+
+#veronica {
+	padding: 0 0 120px 0;
+}
+.name {
+	padding: 100px 0 0 0;
+    text-align: center;
+	font-size: 50px;
+}
+.veronica-about {
+	position: absolute;
+    width: 326px;
+    left: 44px;
+}
+
+.case-studies {
+	text-align: center;
+}
+
+
 footer ul{
 	display: flex;
 	flex-direction: row;
