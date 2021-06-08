@@ -55,3 +55,7 @@ footer ul{
 	justify-content: space-evenly;
 	font-family: "Roboto", sans-serif;
 }
+
+ul{
+    background-color:none;
+}
