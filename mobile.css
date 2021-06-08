@@ -136,6 +136,11 @@ footer ul{
 	flex-direction: row;
 	list-style: none;
 	width: 100%;
-	justify-content: space-around;
+	position: fixed;
+	bottom: 0px;
+	font-weight: bold;
+    color: blue;
+	text-align: center;
+	justify-content: space-evenly;
 	font-family: "Roboto", sans-serif;
 }
