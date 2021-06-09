@@ -164,5 +164,13 @@ footer ul{
 	font-family: "Roboto", sans-serif;
 }
 
+h1{
+	text-align: center;
+	align-items: center;
+	padding-top: 10px;
+	color: navy;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 
 
