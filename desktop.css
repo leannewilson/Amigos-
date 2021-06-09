@@ -5,14 +5,14 @@ body {
 }
 
 /****** TEMP LOGO IMG  ******/
-.logo {
+#logo {
     display: flex;
 	height: 50px;
 	width: 50px;
 	margin: 25px 0 0 50px;
 }
 
-.logo img {
+#logo img {
 	border-radius: 15%;
 }
 
