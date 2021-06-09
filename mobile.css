@@ -3,6 +3,19 @@ body {
 	padding: 0;
 }
 
+.logo {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 50px;
+	width: 50px;
+	margin: 25px 0 0 50px;
+}
+
+.logo img {
+	border-radius: 15%;
+}
+
 /* Hamburger Menu */
 body {
 	color: #444444;
@@ -18,12 +31,14 @@ a {
 
 a:hover {
 	color: aqua;
+	animation: backwards;
+		
 }
 
 #menuToggle {
 	display: block;
 	position: absolute;
-	top: 50px;
+	top: 35px;
 	right: 50px;
 	z-index: 1;
 	-webkit-user-select: none;
@@ -95,6 +110,7 @@ a:hover {
 	transform-origin: 0% 0%;
 	transform: translate(100%, 0);
 	transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+
 }
 
 #menu li {
@@ -147,5 +163,6 @@ footer ul{
 	justify-content: space-evenly;
 	font-family: "Roboto", sans-serif;
 }
+
 
 
