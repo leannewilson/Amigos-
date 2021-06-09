@@ -3,7 +3,7 @@ body {
 	padding: 0;
 }
 
-.logo {
+#logo {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -12,7 +12,7 @@ body {
 	margin: 25px 0 0 50px;
 }
 
-.logo img {
+#logo img {
 	border-radius: 15%;
 }
 
@@ -152,9 +152,7 @@ a:hover {
 
 footer ul{
 	display: flex;
-	flex-direction: row;
 	list-style: none;
-	width: 100%;
 	position: fixed;
 	bottom: 0px;
 	font-weight: bold;
@@ -162,6 +160,10 @@ footer ul{
 	text-align: center;
 	justify-content: space-evenly;
 	font-family: "Roboto", sans-serif;
+}
+footer ul li {
+	display:flex;
+	flex-direction:row;
 }
 
 
