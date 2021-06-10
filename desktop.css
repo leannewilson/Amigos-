@@ -45,7 +45,7 @@ nav {
 }
 
 #menu a:hover {
-    color: aqua;
+    color: black;
 }
 
 input {
@@ -567,4 +567,6 @@ a:hover {
 	display: flex;
 	width: 1156px;
 }
+
+
 >>>>>>> 9a012425be450e464b20c673d9e6e3a419e5080a
