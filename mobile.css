@@ -131,7 +131,6 @@ a:hover {
     
 }
 
-
 #veronica {
 	padding: 0 0 120px 0;
 }
@@ -163,6 +162,9 @@ a:hover {
 
 .case-studies img{
 	width: 380px;
+}
+.casetext {
+	display:none;
 }
 
 
