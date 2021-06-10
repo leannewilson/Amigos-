@@ -694,14 +694,48 @@ h1.Bio{
 
 .sectionTwoText {
 	display: flex;
+	justify-content: center;
 	flex-direction: column;
+	height: 208px;
+	width: 450px;
+	background: #FFFFFF;
+	box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 3px;
+	margin: 0 0 0 30px;
+	padding-bottom: 10px;
+	margin-top: 10px;
 }
 
 .cs1TextRight {
 	display: flex;
-	justify-content: space-between;
+	flex-direction: row;
+	justify-content: space-around;
 }
 
+.cs1TextLeft {
+	padding: 0 0 0 30px;
+}
 
+.cs1TextLeft h1 {
+	font-weight: 900;
+	font-size: 34px;
+	margin-bottom: 10px;
+}
 
+.cs1TextLeft p {
+	font-weight: 400;
+	width: 365px;
+	margin-top: 0;
+}
 
+.cs1TextRight h2 {
+	font-weight: 700;
+	font-size: 14px;
+	text-align: center;
+}
+
+.cs1TextRight p {
+	font-weight: 400;
+	font-size: 14px;
+	text-align: center;
+}
