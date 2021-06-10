@@ -227,5 +227,12 @@ footer ul li {
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/****************** CASE STUDY 1 PAGE *******************/
+.topPhoto1 {
+	margin-top: 10px;
+    height: 50%;
+    width: 100%;
+}
+
 
 

@@ -127,3 +127,9 @@ ul{
     align-items: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+/****************** CASE STUDY 1 PAGE *******************/
+.topPhoto1 {
+    height: 100%;
+    width: 50%;
+}
