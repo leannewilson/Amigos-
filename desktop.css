@@ -66,8 +66,13 @@ input {
     align-items: center;
     width: 400px;
 }
-.veronica-about {
+.veronica-about-desktop {
     color:#777777;
+    text-align: left;
+    margin: 0 500px;
+}
+.veronica-about-mobile {
+    display:none;
 }
 .productdesign {
 	color:#B31E31;
@@ -199,7 +204,6 @@ ul{
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-<<<<<<< HEAD
 a {
 	text-decoration: underline;
 	color: #1889e6;
@@ -615,7 +619,6 @@ a:hover {
 	justify-content: center;
 	align-items: center;
 }
-=======
 
 /****************** CASE STUDY 1 PAGE *******************/
 .topPhoto1 {
@@ -630,4 +633,3 @@ a:hover {
 }
 
 
->>>>>>> 9a012425be450e464b20c673d9e6e3a419e5080a

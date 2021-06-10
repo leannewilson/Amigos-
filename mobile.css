@@ -141,13 +141,16 @@ a:hover {
     width: 344px;
 	padding: 0 0 0 32px;
 }
-.veronica-about {
+.veronica-about-mobile {
 	position: absolute;
     width: 326px;
     left: 44px;
 	color:#777777;
 	font-size: 13px;
 	line-height: 16.9px;
+}
+.veronica-about-desktop {
+	display:none;
 }
 .productdesign {
 	color:#B31E31;
