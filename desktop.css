@@ -79,10 +79,17 @@ ul{
     background-color:none;
 }
 
-h1{
+.about-me h1{
 	text-align: center;
 	align-items: center;
 	padding-top: 10px;
 	color: navy;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.rs-title h1{
+	font-size: 140px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	line-height: 95%;
+	color: black;
 }
