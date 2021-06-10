@@ -692,6 +692,7 @@ h1.Bio{
     width: 100%;
 }
 
+/* section two */
 .sectionTwoText {
 	display: flex;
 	justify-content: center;
@@ -738,4 +739,46 @@ h1.Bio{
 	font-weight: 400;
 	font-size: 14px;
 	text-align: center;
+}
+/* section three */
+
+.sectionThreeText {
+	display: flex;
+	flex-direction: column;
+}
+
+.sectionThreeText h2 {
+	width: 363px;
+	height: 41px;
+	left: 24px;
+	top: 647px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 41px;
+	/* identical to box height, or 186% */
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.374px;
+	margin: auto;
+}
+
+.sectionThreeText p {
+	width: 364px;
+	height: 200px;
+	left: 27px;
+	top: calc(50% - 200px/2 - 4317.5px);
+	font-size: 14px;
+	line-height: 25px;
+	/* or 179% */
+	letter-spacing: 1px;
+	margin: auto;
+}
+
+.sectionThreeText img {
+	width: 236px;
+	height: 31px;
+	left: 89px;
+	top: 899px;
+	margin: auto;
 }

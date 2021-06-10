@@ -632,8 +632,8 @@ a:hover {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	margin: 50px ; 
-	position: absolute;
+	margin: 50px;
+	/* position: absolute; */
 	width: 1156px;
 	height: 378px;
 	left: 142px;
@@ -707,5 +707,44 @@ a:hover {
 	align-items: center;
 	letter-spacing: 0.374px;
 	color: #000000;
+}
+
+/* section three */
+.sectionThreeText {
+	display: flex;
+	flex-direction: column;
+	margin: 50px;
+
+}
+.sectionThreeText h2 {
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 41px;
+	letter-spacing: 0.37400001287460327px;
+	text-align: left;
+	margin-left: 1em;
+}
+
+.sectionThreeText p {
+	width: 917px;
+	height: 392px;
+	left: 263px;
+	top: calc(50% - 392px/2 - 7011px);
+
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 49px; /* or 136% */
+	letter-spacing: 0.37px;
+	margin: auto;
+}
+
+.sectionThreeText img {
+	width: 922px;
+	height: 121px;
+	left: 260px;
+	top: 2335px;
+	margin: auto;
 }
 
