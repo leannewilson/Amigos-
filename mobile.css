@@ -135,9 +135,9 @@ a:hover {
 #veronica {
 	padding: 0 0 120px 0;
 }
-.name {
-    text-align: center;
-	font-size: 50px;
+.VisualVeronica {
+    width: 344px;
+	padding: 0 0 0 32px;
 }
 .veronica-about {
 	position: absolute;
@@ -163,14 +163,17 @@ a:hover {
 
 .case-studies img{
 	width: 380px;
-	padding: 0 0 10px 0;
 }
 
+.download{
+	color: #B31E31;
+	font-style: italic;
+}
 
 footer ul{
 	display: flex;
 	list-style: none;
-	position: fixed;
+	position:relative;
 	bottom: 0px;
 	font-weight: bold;
     color: blue;
@@ -181,6 +184,10 @@ footer ul{
 footer ul li {
 	display:flex;
 	flex-direction:row;
+}
+
+.link{
+	background-image: url(./images/Original.png);
 }
 
 
@@ -220,11 +227,14 @@ footer ul li {
 	margin-left: 15px;
 }
 
-.resume-info h1{
+.resume-info p{
     display: flex;
     justify-content: center;
     align-items: center;
+	font-size: 18px;
+	font-weight: bold;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin: 0px;
 }
 
 /****************** CASE STUDY 1 PAGE *******************/
