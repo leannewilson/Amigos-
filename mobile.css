@@ -134,9 +134,9 @@ a:hover {
 #veronica {
 	padding: 0 0 120px 0;
 }
-.name {
-    text-align: center;
-	font-size: 50px;
+.VisualVeronica {
+    width: 344px;
+	padding: 0 0 0 32px;
 }
 .veronica-about {
 	position: absolute;
@@ -162,8 +162,8 @@ a:hover {
 
 .case-studies img{
 	width: 380px;
-	padding: 0 0 10px 0;
 }
+
 
 
 footer ul{
