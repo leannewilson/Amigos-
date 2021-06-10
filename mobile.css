@@ -149,6 +149,10 @@ a:hover {
 	text-align: center;
 }
 
+.case-1 img{
+	width: 380px;
+}
+
 
 footer ul{
 	display: flex;
