@@ -612,12 +612,15 @@ a:hover {
 .pcss3t > ul > li {
 	height: 370px;
 }
-#text-right {
+.text-right p{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-
+h1.Bio{
+	display: flex;
+	flex-direction: column;
+}
 .rs-title h1{
 	font-size: 140px;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -645,7 +648,6 @@ a:hover {
     font-size: 20px;
 	margin-left: 15px;
 }
-.resume-info h1{
 
 .resume-info p {
     display: flex;
