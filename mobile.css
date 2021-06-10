@@ -1,3 +1,6 @@
+* {
+ 	font-family: "Roboto", sans-serif;
+}
 body {
 	margin: 0;
 	padding: 0;
@@ -244,5 +247,14 @@ footer ul li {
     width: 100%;
 }
 
+.sectionTwoText {
+	display: flex;
+	flex-direction: column;
+}
+
+.cs1TextRight {
+	display: flex;
+	justify-content: space-between;
+}
 
 
