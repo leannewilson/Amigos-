@@ -134,7 +134,6 @@ a:hover {
     
 }
 
-
 #veronica {
 	padding: 0 0 120px 0;
 }
@@ -142,13 +141,16 @@ a:hover {
     width: 344px;
 	padding: 0 0 0 32px;
 }
-.veronica-about {
+.veronica-about-mobile {
 	position: absolute;
     width: 326px;
     left: 44px;
 	color:#777777;
 	font-size: 13px;
 	line-height: 16.9px;
+}
+.veronica-about-desktop {
+	display: none ;
 }
 .productdesign {
 	color:#B31E31;
@@ -167,6 +169,9 @@ a:hover {
 .case-studies img{
 	width: 380px;
 }
+.casetext {
+	display:none;
+}
 
 .download{
 	color: #B31E31;
@@ -181,17 +186,34 @@ footer ul{
 	font-weight: bold;
     color: blue;
 	text-align: center;
-	justify-content: space-evenly;
+	justify-content: space-between;
+	align-items:center;
 	font-family: "Roboto", sans-serif;
 }
-footer ul li {
+/*footer ul li {
 	display:flex;
 	flex-direction:row;
+	border-radius: 50px;
+}*/
+
+.linkedin:hover{
+    opacity: 0.7;
 }
 
-.link{
-	background-image: url(./images/Original.png);
+.twitter:hover{
+    opacity: 0.7;
 }
+
+footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+/*.link{
+	background-image: url(./images/Original.png);
+}*/
 
 
 .about-me {
@@ -616,12 +638,15 @@ a:hover {
 .pcss3t > ul > li {
 	height: 370px;
 }
-#text-right {
+.text-right p{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-
+h1.Bio{
+	display: flex;
+	flex-direction: column;
+}
 .rs-title h1{
 	font-size: 140px;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -649,7 +674,6 @@ a:hover {
     font-size: 20px;
 	margin-left: 15px;
 }
-/* .resume-info h1{} */
 
 .resume-info p {
     display: flex;
