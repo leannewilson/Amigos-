@@ -134,6 +134,7 @@ ul{
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+<<<<<<< HEAD
 a {
 	text-decoration: underline;
 	color: #1889e6;
@@ -549,3 +550,11 @@ a:hover {
 	justify-content: center;
 	align-items: center;
 }
+=======
+
+/****************** CASE STUDY 1 PAGE *******************/
+.topPhoto1 {
+    height: 100%;
+    width: 50%;
+}
+>>>>>>> 9a012425be450e464b20c673d9e6e3a419e5080a
