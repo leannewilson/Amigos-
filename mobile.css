@@ -17,6 +17,7 @@ body {
 
 #logo img {
 	border-radius: 15%;
+	width: 37px;
 }
 
 /* Hamburger Menu */
@@ -168,6 +169,9 @@ a:hover {
 
 .case-studies img{
 	width: 380px;
+}
+.desktop-image {
+	display:none;
 }
 .casetext {
 	display:none;

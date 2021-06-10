@@ -88,6 +88,9 @@ input {
 .case-studies img{
     width: 100%;
 }
+.mobile-image {
+	display: none;
+}
 .casetext {
     display:flex;
     justify-content: space-between;
