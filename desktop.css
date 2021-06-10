@@ -78,3 +78,35 @@ footer ul{
 ul{
     background-color:none;
 }
+
+.about-me h1{
+	text-align: center;
+	align-items: center;
+	padding-top: 10px;
+	color: navy;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.rs-title h1{
+	font-size: 140px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	line-height: 95%;
+	color: black;
+    margin-left: 25px;
+    padding-left: 10px;
+}
+
+.dl-resume{
+	width: 25%;
+	display: block;
+	margin-top: 10px;
+    margin-bottom: 86px;
+    padding: 11px 25px;
+    float: none;
+    border-radius: 4px;
+	background-color:tomato;
+	text-align: center;
+	line-height: 24px;
+    margin-left: 25px;
+    padding-left: 10px;
+}
