@@ -151,12 +151,19 @@ a:hover {
 	color:#B31E31;
 }
 
+.section-title {
+	padding: 0 0 0 40px;
+	font-weight: 900;
+	font-style: normal;
+	color: #434343;
+}
 .case-studies {
 	text-align: center;
 }
 
-.case-1 img{
+.case-studies img{
 	width: 380px;
+	padding: 0 0 10px 0;
 }
 
 
@@ -211,6 +218,12 @@ footer ul li {
 	font-weight: bold;
     font-size: 20px;
 	margin-left: 15px;
+}
+
+.resume-info h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
