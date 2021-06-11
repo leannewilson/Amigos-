@@ -8,7 +8,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-/****** TEMP LOGO IMG  ******/
+/****** LOGO IMG  ******/
 #logo {
     display: flex;
 	height: 50px;
@@ -71,6 +71,7 @@ input {
     color:#777777;
     text-align: left;
     margin: 0 500px;
+	min-width: 356px;
 }
 .veronica-about-mobile {
     display: none;
@@ -78,7 +79,6 @@ input {
 .productdesign {
 	color:#B31E31;
 }
-
 
 #section-title {
     font-size: 35px;
@@ -88,7 +88,7 @@ input {
 .scrolldown {
 	display: flex;
     justify-content: center;
-	padding: 20px 0 120px 0;
+	padding: 50px 0 0px 0;
 }
 .scroll-down {
 	height: 60px;
@@ -793,6 +793,10 @@ a:hover {
 	margin-left:170px;
 	color: #979797;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5dae03377c5e8158be152704b26e585c9095029e
 .main-section-img {
 	display: block;
   	margin-left: auto;
@@ -809,9 +813,17 @@ a:hover {
 .sbs-section-img {
 	width: 41%;
 }
+<<<<<<< HEAD
 .sbs-section-img2 {
 	width: 40.95%;
 	padding: 0 1.5px;
+=======
+
+.copyRightScrollUp {
+	display: flex;
+	margin-left: 100px;
+	
+>>>>>>> 5dae03377c5e8158be152704b26e585c9095029e
 }
 
 .sectionThreeText1 {
