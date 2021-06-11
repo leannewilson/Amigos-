@@ -4,6 +4,7 @@
 body {
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
 }
 
 #logo {
@@ -425,6 +426,11 @@ footer{
 	top: 0;
 	left: 0;
 	opacity: 1;
+	padding:0;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 	-webkit-transform: scale(1,1);
 	-webkit-transform: rotate(0deg);
 }
@@ -697,28 +703,36 @@ footer{
 	font-style: normal;
     color: #434343;
 }
-me {
-    //border: solid black 1px;
-    padding: 2rem;
-    margin-top: 1rem;
+.me {
+    margin-top: 3rem;
     font-size: 20px;
+	width: 90vw;
+	height: 90vw;
+	display:flex;
+	justify-content: center;
+	align-items:center;
   }
 .me h1{
-      font-size: 30px;
-      color: #eee;
-      text-align: justify;
-      display: flex;
-	  justify-content: left;
+    font-size: 30px;
+    color: #eee;
+    text-align: justify;
+    margin: 0;
+    white-space: nowrap;
   }
 .info {
     border: solid black 1px;
     border-radius: 25px;
-    padding: 8rem;
     background-image: url("/images/235388.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    max-height: 100px;
+	background-position: center;
 	color: #B31E31;
+	padding: 1rem;
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
   }
 .bio h1{
 		display: flex;
@@ -726,6 +740,7 @@ me {
 		justify-content: flex-start;
 		font-size: 50px;
 		font-family: Arial, Helvetica, sans-serif;
+}
 .bio, .goals {
     border: solid black 1px;
     border-radius: 25px;
@@ -747,7 +762,7 @@ ul.bio-content {
 
   }
   img {
-	width: 244px;
+	width: 60px;
     padding: 0 0 0 32px;
 	align-content: flex-end;
   }
@@ -1085,7 +1100,6 @@ ul.bio-content {
 	text-decoration: none;
 }
 
-
 .copyRightScrollUp {
 	display: flex;
 	justify-content: space-around;
@@ -1106,8 +1120,6 @@ ul.bio-content {
 	padding-top: 20px;
 }
 
-a img:hover{
-	/* webkit-filter: blur(4px); /* Chrome, Safari, Opera */
-    /* filter: blur(1px);  */
+a img:hover {
 	filter:opacity(50%);
 }
