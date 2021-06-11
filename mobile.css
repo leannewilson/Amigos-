@@ -946,25 +946,6 @@ h1.Bio{
 	margin-top: 40px;
 }
 
-<<<<<<< HEAD
-
-.main-section-img {
-	width: 95%;
-}
-
-.sideBySide {
-	display: flex; 
-	flex-direction:row;
-}
-
-.sbs-section-img {
-	width: 47.5%;
-	align-items: center;
-}
-
-.c2-image {
-	padding: 0 2px 0 2px;
-=======
 .sectionLast button {
 	width: 175px;
 	height: 31px;
@@ -1003,5 +984,4 @@ a img:hover{
 	/* webkit-filter: blur(4px); /* Chrome, Safari, Opera */
     /* filter: blur(1px);  */
 	filter:opacity(50%);
->>>>>>> 34f3b588d1f317e6d72b2bd5a1eb27f7de0cc97b
 }
