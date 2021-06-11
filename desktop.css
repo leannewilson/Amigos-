@@ -1072,3 +1072,37 @@ a img:hover{
     /* filter: blur(1px);  */
 	filter:opacity(50%);
 }
+
+/* BIO ABOUT ME */
+.bio {
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+}
+
+.bio img {
+	height: 220px;
+	width: 220px;
+	padding: 30px 20px 0 0;
+}
+
+.bioSection {
+	display: flex;
+	flex-direction: column;
+}
+
+.bioSection h5 {
+	font-size: 48px;
+	margin-top: -10px;
+}
+
+.bio-content {
+	text-align: left;
+}
+
+.bio-content li {
+	text-align: left;
+	list-style: none;
+	font-size: 20px;
+	
+}

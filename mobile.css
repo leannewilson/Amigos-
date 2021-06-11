@@ -1126,3 +1126,40 @@ img {
 a img:hover {
 	filter:opacity(50%);
 }
+
+/* BIO ABOUT ME */
+.bio {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.bioSection {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.bio img {
+	height: 120px;
+	width: 120px;
+	padding: 30px 20px 0 0;
+}
+
+/* .bioSection {
+	display: flex;
+	flex-direction: column;
+ }  */
+
+.bioSection h5 {
+	font-size: 36px;
+	margin-top: -10px;
+}
+
+.bio-content ul {
+	margin-top: -30px;
+}
+
+.bio-content li {
+	list-style: none;
+	font-size: 14px;
+} 
