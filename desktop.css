@@ -779,6 +779,20 @@ a:hover {
 	max-width: 661px;
 	margin: auto; 
 }
+
+.main-section-img {
+	width:90%;
+}
+.sideBySide {
+	display:flex;
+	flex-direction: row;
+}
+
+.sbs-section-img {
+	width: 45%;
+	align-items:center;
+}
+
 <<<<<<< HEAD
 
 =======

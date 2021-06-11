@@ -809,3 +809,22 @@ h1.Bio{
 	height: 264px;
 	margin: 25px;
 }
+
+
+.main-section-img {
+	width: 95%;
+}
+
+.sideBySide {
+	display: flex; 
+	flex-direction:row;
+}
+
+.sbs-section-img {
+	width: 47.5%;
+	align-items: center;
+}
+
+.c2-image {
+	padding: 0 2px 0 2px;
+}
