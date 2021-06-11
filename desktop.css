@@ -1104,3 +1104,9 @@ a img:hover{
 	font-size: 20px;
 	
 }
+
+.goals {
+	text-align: left;
+	display: flex;
+	justify-content: center;
+}
