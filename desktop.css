@@ -191,6 +191,7 @@ ul{
 	color: black;
     margin-left: 25px;
     padding-left: 10px;
+	text-transform: uppercase;
 }
 
 .dl-resume a{
@@ -203,7 +204,7 @@ ul{
     margin-bottom: 86px;
     padding: 11px 25px;
     float: none;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 	background-color:#B31E31;
 	text-align: center;
 	line-height: 24px;
@@ -651,12 +652,11 @@ a:hover {
 	font-style: normal;
     color: #434343;
 }
-me {
-    //border: solid black 1px;
+.me {
     padding: 2rem;
     margin-top: 1rem;
     font-size: 20px;
-  }
+}
 .me h1{
       font-size: 30px;
       color: #eee;
@@ -685,12 +685,13 @@ p {
 		justify-content: flex-start;
 		font-size: 50px;
 		font-family: Arial, Helvetica, sans-serif;
+}
 .bio, .goals {
     border: solid black 1px;
     border-radius: 25px;
     padding: 2rem;
     margin: 1rem 0;
-  }
+}
 ul.bio-content {
 	text-align: center;
 	align-content: flex-end;
