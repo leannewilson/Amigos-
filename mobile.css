@@ -131,9 +131,6 @@ a:hover {
 	opacity: 1;
 }
 
-@media (min-width: 48em) {
-    
-}
 
 #veronica {
 	padding: 0 0 120px 0;
@@ -450,7 +447,7 @@ a:hover {
 /**/
 /* phone */
 /**/
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 667px) {
 	.pcss3t > label {
 		display: block;
 	}
@@ -521,7 +518,7 @@ a:hover {
 .pcss3t-theme-1 > .tab-content-first:checked ~ ul {
 	border-top-left-radius: 0;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 976px) {
 	.pcss3t-theme-1 > label {
 		margin-right: 0;
 	}
@@ -570,7 +567,7 @@ a:hover {
 	border-radius: 0;
 	box-shadow: none;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 976px) {
 	.pcss3t-theme-2 > ul {
 		margin-top: 5px;
 	}
@@ -651,7 +648,7 @@ a:hover {
 	border-radius: 5px;
 	box-shadow: 0 2px 2px rgba(0,0,0,0.3);
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 976px) {
 	.pcss3t-theme-4 > label {
 		margin-right: 0;
 	}
@@ -704,7 +701,7 @@ a:hover {
 	border-radius: 0 0 5px 5px;
 	box-shadow: none;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 976px) {
 	.pcss3t-theme-5 > input:checked + label:after {
 		display: none;
 	}
