@@ -634,6 +634,77 @@ a:hover {
 	align-items: center;
 }
 
+.about-me {
+	display: block;
+    font-size: 6em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	font-style: normal;
+    color: #434343;
+}
+me {
+    //border: solid black 1px;
+    padding: 2rem;
+    margin-top: 1rem;
+    font-size: 20px;
+  }
+.me h1{
+      font-size: 30px;
+      color: #eee;
+      text-align: justify;
+      display: flex;
+	  justify-content: left;
+  }
+.info {
+    border: solid black 1px;
+    border-radius: 25px;
+    padding: 8rem;
+    background-image: url("/images/235388.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    max-height: 100px;
+	color: red;
+  }
+p {
+	font-size: 2rem;
+	align-items: center;
+	border:rgba(0, 0, 0, 0.25)
+}
+.bio h1{
+		display: flex;
+		align-items: flex-start;
+		justify-content: flex-start;
+		font-size: 50px;
+		font-family: Arial, Helvetica, sans-serif;
+.bio, .goals {
+    border: solid black 1px;
+    border-radius: 25px;
+    padding: 2rem;
+    margin: 1rem 0;
+  }
+ul.bio-content {
+	text-align: center;
+	align-content: flex-end;
+
+}
+.contact {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	font-size: 18px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+  img {
+	width: 244px;
+    padding: 0 0 0 32px;
+	align-content: flex-end;
+  }
+
 /****************** CASE STUDY 1 PAGE *******************/
 .topPhoto1 {
 	margin-top: 10px;
