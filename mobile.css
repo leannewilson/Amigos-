@@ -725,7 +725,7 @@ footer{
 .info {
     border: solid black 1px;
     border-radius: 25px;
-    background-image: url("/images/235388.jpg");
+    background-image: url("./images/235388.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 	background-position: center;

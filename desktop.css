@@ -672,7 +672,7 @@ a:hover {
     border: solid black 1px;
     border-radius: 25px;
     padding: 8rem;
-    background-image: url("/images/235388.jpg");
+    background-image: url("./images/235388.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     max-height: 100px;
