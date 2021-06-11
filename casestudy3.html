@@ -5,33 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visual Veronica</title>
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 767px)">
 </head>
 <body>
-    <div class="first-image">
-    </div>
-
-    <section class="title-section">
-
-
-    <div class="cs-title">
-        <h1>Large Title</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio laudantium aliquid magni nisi iure porro autem! Repellat expedita numquam tempore assumenda! Ad modi hic placeat molestiae a nemo, temporibus eum.</p>
-    </div>
-
-    </section>
-
-    <div class="cs-research">
-        <h2>Reseach</h2>
-        <h3>insert image</h3>
-        <i>quote</i>
-        <h6>customer name</h6>
-    </div>
-
-    
-    <div class="cs-1-link">
-
-    </div>
+    <header>
         
+        <nav role='navigation'>
+            <div id="logo">
+               <a href="./index.html"><img src="./images/Logo - V.png" alt="logo"></a>
+            </div>
+
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <a href="./index.html">
+                        <li>Work</li>
+                    </a>
+                    <a href="./about.html">
+                        <li>About</li>
+                    </a>
+                    <a href="./resume.html">
+                        <li>Resume</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </header> 
+
+<!-- FIRST SECTION -->
+    <div>
+        <img class="topPhoto1" src="./images/cs3images/cs3mainphoto.png" alt="Mentor app on two cell phones">
     </div>
+
+<!-- SECOND SECTION -->
+<section class="sectionTwoText center">
+    <div class="cs1TextLeft">
+        <h1>Money Bank</h1>
+        <p>This app helps manage assets. Users can easily transact and receive money, as well as manage outlays.</p>
+    </div>
+
+   <span class="cs1TextRight">
+        <div>
+            <h2>Role</h2>
+            <p>UX Designer</p>
+        </div>
+        <div>
+            <h2>Team</h2>
+            <p>Solo</p>
+        </div>
+        <div>
+            <h2>Timeline</h2>
+            <p>30 Days</p>
+        </div>
+    </span>
+</section>
+
+<!-- THIRD SECTION -->
+<section class="sectionThreeText">
+    <h2>The Problem</h2>
+    <p>Through research on conventional bank apps, I realized that the existing apps are difficult for users to use because of their difficult vocabulary and features that aren’t intuitive. There are too many functions within the application, so it is hard to find the function in need. The graph and charts of the detailed statement are complicated, so it is hard to manage assets without a finance manager.</p>
+
+    <img src="./images/cs3images/cs3mainphoto.png" alt="">
+</section>
+
 </body>
 </html>
