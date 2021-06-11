@@ -157,11 +157,14 @@ a:hover {
 	color:#B31E31;
 }
 
-.section-title {
+#section-title {
 	padding: 0 0 0 40px;
 	font-weight: 900;
 	font-style: normal;
 	color: #434343;
+}
+.scroll-down {
+	display:none;
 }
 .case-studies {
 	text-align: center;
@@ -169,6 +172,9 @@ a:hover {
 
 .case-studies img{
 	width: 380px;
+}
+.desktop-image {
+	display:none;
 }
 .casetext {
 	display:none;

@@ -80,13 +80,24 @@ input {
 }
 
 
-.section-title {
+#section-title {
     font-size: 35px;
     color: #434343;
     font-style: normal;
 }
+.scrolldown {
+	display: flex;
+    justify-content: center;
+	padding: 20px 0 120px 0;
+}
+.scroll-down {
+	height: 60px;
+}
 .case-studies img{
     width: 100%;
+}
+.mobile-image {
+	display: none;
 }
 .casetext {
     display:flex;
