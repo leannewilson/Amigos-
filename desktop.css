@@ -8,7 +8,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-/****** TEMP LOGO IMG  ******/
+/****** LOGO IMG  ******/
 #logo {
     display: flex;
 	height: 50px;
@@ -78,7 +78,6 @@ input {
 .productdesign {
 	color:#B31E31;
 }
-
 
 #section-title {
     font-size: 35px;
