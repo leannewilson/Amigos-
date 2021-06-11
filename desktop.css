@@ -658,6 +658,7 @@ a:hover {
 	box-sizing: border-box;
 	box-shadow: 8px 15px 4px rgba(0, 0, 0, 0.25);
 	border-radius: 15px;
+	max-width: 100%;
 }
 
 .cs1TextLeft h1 {
@@ -700,15 +701,12 @@ a:hover {
 	font-weight: bold;
 	font-size: 24px;
 	line-height: 41px;
-	/* or 171% */
 	display: flex;
 	align-items: center;
 	letter-spacing: 0.374px;
 	color: #000000;
 }
 
-<<<<<<< HEAD
-=======
 .csTextRight p {
 	width: 212px;
 	height: 35px;
@@ -755,30 +753,184 @@ a:hover {
 	line-height: 49px; /* or 136% */
 	letter-spacing: 0.37px;
 	margin: auto;
+	max-width: 100%;
 }
 
 .sectionThreeText img {
 	width: 922px;
-	height: 121px;
-	left: 260px;
-	top: 2335px;
+	height: auto;
 	margin: auto;
 	padding: 100px;
+	max-width: 80%;
+}
+
+/* SECTION 4 */
+.sectionFourText {
+	background-color: #F3F6FA;
+}
+
+.sectionFourText  h2 {
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 41px;
+	letter-spacing: 0.37400001287460327px;
+	text-align: left;
+	margin-left: 1em;
+	width: 917px;
+	display: flex;
+	margin: auto;
+	padding: 70px 0;
+}
+
+.sectionFourText  p {
+	width: 917px;
+	/* height: 392px; */
+	left: 263px;
+	top: calc(50% - 392px/2 - 7011px);
+	font-size: 36px;
+	line-height: 49px; /* or 136% */
+	letter-spacing: 0.37px;
+	margin: auto;
+	max-width: 100%;
+}
+
+.sectionFourText img {
+	width: 922px;
+	height: auto;
+	margin: auto;
+	padding: 100px;
+	max-width: 80%;
+	display: flex;
+}
+
+
+/* SECTION FIVE */
+
+.sectionFiveText  h2 {
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 41px;
+	letter-spacing: 0.37400001287460327px;
+	text-align: left;
+	margin-left: 1em;
+	width: 917px;
+	display: flex;
+	margin: auto;
+	padding: 70px 0;
+}
+
+.mentorMentee {
+	display: flex;
+	line-height: 41px;
+	letter-spacing: 0.37400001287460327px;
+	text-align: left;
+	margin-left: 1em;
+	width: 917px;
+	display: flex;
+	margin: auto;
+	/* margin-right: 20px; */
+	justify-content: space-between;
+}
+
+.sectionFiveText h3 {
+	text-transform: uppercase;
+	width: 363px;
+	height: 41px;
+	font-weight: bold;
+	font-size: 32px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.374px;
+	margin: auto;
+	padding: 5px;
+}
+
+.sectionFiveText p {
+	width: 364px;
+	font-size: 24px;
+	line-height: 25px;
+	font-weight: 400px;
+	letter-spacing: 1px;
+	margin: auto;
+	margin-bottom: 20px;
+	
+}
+
+/* SECTION SIX */
+.sectionSixText {
+	background-color: #F3F6FA;
+	padding-bottom: 90px;
+}
+.sectionSixText  h2 {
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 41px;
+	letter-spacing: 0.37400001287460327px;
+	text-align: left;
+	margin-left: 1em;
+	width: 917px;
+	display: flex;
+	margin: auto;
+	padding: 70px 0 40px 0;
+}
+
+.sectionSixText p {
+	width: 917px;
+	left: 263px;
+	font-size: 32px;
+	font-weight: 400;
+	letter-spacing: 0.37px;
+	margin: auto;
+	max-width: 100%;
+}
+
+.sectionSixText img {
+	width: 922px;
+	height: auto;
+	margin: auto;
+	padding: 100px;
+	max-width: 80%;
+	display: flex;
 }
 
 /* LAST SECTION/NEXT PROJECT */
 .sectionLast {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-around;
 	width: 100%;
+	margin-top: 40px;
+}
+
+.sectionLast a {
+	margin: auto;
 }
 
 .sectionLast img {
 	min-height: auto;
 	max-width: 661px;
 	margin: auto; 
+	margin-top: 50px;
 }
+
+.sectionLast button {
+	width: 448.06px;
+	height: 41px;
+	display: flex;
+	justify-content: center;
+	box-shadow: 0px 4px 4px 0px #00000040;
+	margin: auto;
+	border: none;
+	background-color: white;
+	font-size: 24px;
+	margin-top: 100px;
+	text-decoration: none;
+}
+
+button a {
+	text-decoration: none;
+}
+<<<<<<< HEAD
 
 .main-section-img {
 	width:90%;
@@ -794,7 +946,34 @@ a:hover {
 }
 
 <<<<<<< HEAD
-
 =======
->>>>>>> 4808cf91d5d4eb704f3febf7effe029b3266d64b
->>>>>>> 255c8c935e4b3fe0e6d461e7ea770170a8db045f
+>>>>>>> 34f3b588d1f317e6d72b2bd5a1eb27f7de0cc97b
+
+.copyRightScrollUp {
+	display: flex;
+	margin-left: 100px;
+	
+}
+
+.copyRightScrollUp img {
+	display: none;
+	/* height: 33px;
+	width: 33px;
+	margin-right: 70px;
+	display: flex;
+	align-self: flex-end; */
+}
+
+.copyRightScrollUp h6 {
+	font: 24px;
+	display: flex;
+	justify-content: flex-start;
+	color: #979797;
+	padding-top: 20px;
+}
+
+a img:hover{
+	/* webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+    /* filter: blur(1px);  */
+	filter:opacity(50%);
+}
