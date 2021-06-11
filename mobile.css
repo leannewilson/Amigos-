@@ -205,6 +205,7 @@ footer ul{
 	width: 100%;
 	position:relative;
 	bottom: 0px;
+	padding: 0 0 100px 0;
     font-weight: bold;
     color: blue;
 	text-align: center;
@@ -223,12 +224,12 @@ footer ul{
 	align-items: center;
 	padding-top: 10px;
 	color: navy;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	/*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
 }
 
 .rs-title h1{
 	font-size: 140px;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	/*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
 	line-height: 95%;
 	color: black;
     margin-left: 25px;
@@ -239,7 +240,7 @@ footer ul{
 	width: 25%;
 	display: block;
     justify-content: flex-start;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
     align-items: flex-start;
 	margin-top: 10px;
     margin-bottom: 86px;
@@ -263,7 +264,7 @@ footer ul{
     align-items: center;
     font-size: 24px;
     font-weight: bold;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
 }
 
 .linkedin:hover{
@@ -299,7 +300,7 @@ footer{
 	padding-top: 10px;
 	color: navy;
 	font-size: 50px;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	/*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
 }
 #about h1{
 	padding: 0 0 120px 0;
