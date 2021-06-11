@@ -186,15 +186,15 @@ a:hover {
 }
 
 footer ul{
-	display: flex;
+	display:contents;
 	list-style: none;
 	position:relative;
 	bottom: 0px;
 	font-weight: bold;
     color: blue;
 	text-align: center;
-	justify-content: space-between;
-	align-items:center;
+	justify-content:space-between;
+	align-items:stretch;
 	font-family: "Roboto", sans-serif;
 }
 /*footer ul li {
@@ -216,6 +216,13 @@ footer{
 	justify-content: space-around;
 	align-items: center;
 }
+
+/*.scrollup a li ul footer{
+	width: 10px;
+	height: 10px;
+	background-size: 10px;
+	font-size: 3.75em;
+}*/
 
 
 /*.link{
