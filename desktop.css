@@ -754,3 +754,16 @@ a:hover {
 	padding: 100px;
 }
 
+/* LAST SECTION/NEXT PROJECT */
+.sectionLast {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+}
+
+.sectionLast img {
+	min-height: auto;
+	max-width: 661px;
+	margin: auto; 
+}
