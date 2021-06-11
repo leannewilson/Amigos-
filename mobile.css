@@ -720,7 +720,7 @@ me {
     background-size: 100%;
     background-repeat: no-repeat;
     max-height: 100px;
-	color: red;
+	color: #B31E31;
   }
 .bio h1{
 		display: flex;
@@ -733,7 +733,7 @@ me {
     border-radius: 25px;
     padding: 2rem;
     margin: 1rem 0;
-  }
+}
 ul.bio-content {
 	text-align: center;
 	align-content: flex-end;
