@@ -937,20 +937,29 @@ button a {
 	text-decoration: none;
 }
 
+.formatmargins {
+	margin-left: 100px;
+	margin-right:100px;
+}
+.c2-image {
+    display: flex;
+    justify-content: center;
+}
+img.main-section-img {
+	width:91%;
 
-.main-section-img {
-	width:90%;
 }
 .sideBySide {
 	display:flex;
 	flex-direction: row;
+	justify-content: center;
 }
 
-.sbs-section-img {
+img.sbs-section-img {
 	width: 45%;
 	align-items:center;
 }
-.sbs-section-img2 {
+img.sbs-section-img2 {
 	width: 40.95%;
 	padding: 0 1.5px;
 }
