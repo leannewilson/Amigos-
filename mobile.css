@@ -736,7 +736,7 @@ footer{
     flex-direction: column;
     align-items: center;
 
-  }
+}
 .bio h1{
 		display: flex;
 		align-items: flex-start;
@@ -757,16 +757,23 @@ ul.bio-content {
 .contact {
 	display: flex;
 	justify-content: space-evenly;
-	flex-direction: row;
+	flex-direction: column;
 	font-size: 16px;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
+.contactimage {
+	height: 120px;
+	width: 140px;
+}
 img {
 	width: 60px;
     padding: 0 0 0 32px;
 	align-content: flex-end;
+}
+img.cicons {
+    width: 60px;
 }
 /* .rs-title h1{
 	font-size: 140px;
