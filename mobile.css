@@ -700,6 +700,11 @@ h1.Bio{
 }
 
 /* section two */
+
+.center { 
+	display: flex;
+	justify-content: center;
+}
 .sectionTwoText {
 	display: flex;
 	justify-content: center;
@@ -711,7 +716,8 @@ h1.Bio{
 	border-radius: 3px;
 	margin: 0 0 0 30px;
 	padding-bottom: 10px;
-	margin-top: 10px;
+	margin: 10px;
+	margin: auto;
 }
 
 .cs1TextRight {
@@ -788,4 +794,18 @@ h1.Bio{
 	left: 89px;
 	top: 899px;
 	margin: auto;
+}
+
+/* LAST SECTION/NEXT PROJECT */
+.sectionLast {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+}
+
+.sectionLast img {
+	width: 365px;
+	height: 264px;
+	margin: 25px;
 }
