@@ -938,7 +938,11 @@ h1.Bio{
 	margin-top: 40px;
 }
 
-<<<<<<< HEAD
+/* case study 2 page css */
+.formatmargins {
+	padding: 0 30px;
+	text-align: left;
+}
 
 .main-section-img {
 	width: 95%;
@@ -956,7 +960,21 @@ h1.Bio{
 
 .c2-image {
 	padding: 0 2px 0 2px;
-=======
+}	
+.c2text {
+	margin-right: 30px;
+}
+
+.sectionThreeText1 {
+	padding: 20px 0 0 0;
+}
+.under-image {
+	color: #979797;
+	font-size:10px;
+}
+
+/* end case study 2 css */
+
 .sectionLast button {
 	width: 175px;
 	height: 31px;
@@ -995,5 +1013,4 @@ a img:hover{
 	/* webkit-filter: blur(4px); /* Chrome, Safari, Opera */
     /* filter: blur(1px);  */
 	filter:opacity(50%);
->>>>>>> 34f3b588d1f317e6d72b2bd5a1eb27f7de0cc97b
 }
