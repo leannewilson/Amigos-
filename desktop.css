@@ -191,6 +191,7 @@ ul{
 	color: black;
     margin-left: 25px;
     padding-left: 10px;
+	text-transform: uppercase;
 }
 
 .dl-resume a{
@@ -203,7 +204,7 @@ ul{
     margin-bottom: 86px;
     padding: 11px 25px;
     float: none;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 	background-color:#B31E31;
 	text-align: center;
 	line-height: 24px;
