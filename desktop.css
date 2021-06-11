@@ -71,11 +71,13 @@ input {
 .veronica-about-desktop {
     color:#777777;
     text-align: left;
-    margin: 0 500px;
+    /* margin: 0 500px; */
+	max-width: 500px;
 }
 .veronica-about-mobile {
     display: none;
 }
+
 .productdesign {
 	color:#B31E31;
 }
@@ -88,7 +90,7 @@ input {
 .scrolldown {
 	display: flex;
     justify-content: center;
-	padding: 20px 0 120px 0;
+	padding: 50px 0 100px 0;
 }
 .scroll-down {
 	height: 60px;
@@ -204,7 +206,7 @@ ul{
     margin-bottom: 86px;
     padding: 11px 25px;
     float: none;
-    /* border-radius: 10px; */
+    border-radius: 10px;
 	background-color:#B31E31;
 	text-align: center;
 	line-height: 24px;
