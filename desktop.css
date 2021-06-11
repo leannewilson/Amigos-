@@ -18,6 +18,7 @@ body {
 
 #logo img {
 	border-radius: 15%;
+    height: 50px;
 }
 
 nav {
@@ -66,21 +67,37 @@ input {
     align-items: center;
     width: 400px;
 }
-.veronica-about {
+.veronica-about-desktop {
     color:#777777;
+    text-align: left;
+    margin: 0 500px;
+}
+.veronica-about-mobile {
+    display: none;
 }
 .productdesign {
 	color:#B31E31;
 }
 
 
-.section-title {
+#section-title {
     font-size: 35px;
     color: #434343;
     font-style: normal;
 }
+.scrolldown {
+	display: flex;
+    justify-content: center;
+	padding: 20px 0 120px 0;
+}
+.scroll-down {
+	height: 60px;
+}
 .case-studies img{
     width: 100%;
+}
+.mobile-image {
+	display: none;
 }
 .casetext {
     display:flex;
@@ -88,6 +105,9 @@ input {
 }
 
 .case-1-desktop-text {
+	display: flex;
+	flex-direction: row;
+	width: 400px;
     padding: 0 0 0 25px;
     font-size: 30px;
     color: #434343;
@@ -619,11 +639,144 @@ a:hover {
 	margin-top: 10px;
     height: 50%;
     width: 100%;
+	max-height: 820;
+	margin-bottom: 50px;
 }
 
 .sectionTwoText {
 	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 50px;
+	margin-top: 50px;
+	margin: auto;
+	/* position: absolute; */
 	width: 1156px;
+	height: 378px;
+	background: #FFFFFF;
+	/* border: 1px solid #000000; */
+	box-sizing: border-box;
+	box-shadow: 8px 15px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
 }
 
+.cs1TextLeft h1 {
+	height: 41px;
+	left: 263px;
+	right: 812px;
+	bottom: 16752px;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 41px;
+	/* identical to box height, or 85% */
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.374px;
+	color: #000000;
+}
 
+.cs1TextLeft p {
+	width: 448px;
+	height: 142px;
+	left: 260px;
+	top: calc(50% - 142px/2 - 7590px);
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 40px;
+	/* or 167% */
+	letter-spacing: -0.408px;
+}
+
+.csTextRight h2 {
+	width: 212px;
+	height: 35px;
+	left: 968px;
+	top: 1241px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 41px;
+	/* or 171% */
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.374px;
+	color: #000000;
+}
+
+<<<<<<< HEAD
+=======
+.csTextRight p {
+	width: 212px;
+	height: 35px;
+	left: 968px;
+	top: 1277px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 41px;
+	/* or 171% */
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.374px;
+	color: #000000;
+}
+
+/* section three */
+.sectionThreeText {
+	display: flex;
+	flex-direction: column;
+	margin: 50px;
+
+}
+.sectionThreeText h2 {
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 41px;
+	letter-spacing: 0.37400001287460327px;
+	text-align: left;
+	margin-left: 1em;
+	width: 917px;
+	display: flex;
+	margin: auto;
+	padding: 70px 0;
+}
+
+.sectionThreeText p {
+	width: 917px;
+	height: 392px;
+	left: 263px;
+	top: calc(50% - 392px/2 - 7011px);
+	font-size: 36px;
+	line-height: 49px; /* or 136% */
+	letter-spacing: 0.37px;
+	margin: auto;
+}
+
+.sectionThreeText img {
+	width: 922px;
+	height: 121px;
+	left: 260px;
+	top: 2335px;
+	margin: auto;
+	padding: 100px;
+}
+
+/* LAST SECTION/NEXT PROJECT */
+.sectionLast {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+}
+
+.sectionLast img {
+	min-height: auto;
+	max-width: 661px;
+	margin: auto; 
+}
+>>>>>>> 4808cf91d5d4eb704f3febf7effe029b3266d64b

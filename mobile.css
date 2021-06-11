@@ -17,6 +17,7 @@ body {
 
 #logo img {
 	border-radius: 15%;
+	width: 37px;
 }
 
 /* Hamburger Menu */
@@ -141,7 +142,7 @@ a:hover {
     width: 344px;
 	padding: 0 0 0 32px;
 }
-.veronica-about {
+.veronica-about-mobile {
 	position: absolute;
     width: 326px;
     left: 44px;
@@ -149,15 +150,21 @@ a:hover {
 	font-size: 13px;
 	line-height: 16.9px;
 }
+.veronica-about-desktop {
+	display: none ;
+}
 .productdesign {
 	color:#B31E31;
 }
 
-.section-title {
+#section-title {
 	padding: 0 0 0 40px;
 	font-weight: 900;
 	font-style: normal;
 	color: #434343;
+}
+.scroll-down {
+	display:none;
 }
 .case-studies {
 	text-align: center;
@@ -165,6 +172,9 @@ a:hover {
 
 .case-studies img{
 	width: 380px;
+}
+.desktop-image {
+	display:none;
 }
 .casetext {
 	display:none;
@@ -689,16 +699,113 @@ h1.Bio{
     width: 100%;
 }
 
+/* section two */
+
+.center { 
+	display: flex;
+	justify-content: center;
+}
 .sectionTwoText {
 	display: flex;
+	justify-content: center;
 	flex-direction: column;
+	height: 208px;
+	width: 450px;
+	background: #FFFFFF;
+	box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 3px;
+	margin: 0 0 0 30px;
+	padding-bottom: 10px;
+	margin: 10px;
+	margin: auto;
 }
 
 .cs1TextRight {
 	display: flex;
-	justify-content: space-between;
+	flex-direction: row;
+	justify-content: space-around;
 }
 
+.cs1TextLeft {
+	padding: 0 0 0 30px;
+}
 
+.cs1TextLeft h1 {
+	font-weight: 900;
+	font-size: 34px;
+	margin-bottom: 10px;
+}
 
+.cs1TextLeft p {
+	font-weight: 400;
+	width: 365px;
+	margin-top: 0;
+}
 
+.cs1TextRight h2 {
+	font-weight: 700;
+	font-size: 14px;
+	text-align: center;
+}
+
+.cs1TextRight p {
+	font-weight: 400;
+	font-size: 14px;
+	text-align: center;
+}
+/* section three */
+
+.sectionThreeText {
+	display: flex;
+	flex-direction: column;
+}
+
+.sectionThreeText h2 {
+	width: 363px;
+	height: 41px;
+	left: 24px;
+	top: 647px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 41px;
+	/* identical to box height, or 186% */
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.374px;
+	margin: auto;
+}
+
+.sectionThreeText p {
+	width: 364px;
+	height: 200px;
+	left: 27px;
+	top: calc(50% - 200px/2 - 4317.5px);
+	font-size: 14px;
+	line-height: 25px;
+	/* or 179% */
+	letter-spacing: 1px;
+	margin: auto;
+}
+
+.sectionThreeText img {
+	width: 236px;
+	height: 31px;
+	left: 89px;
+	top: 899px;
+	margin: auto;
+}
+
+/* LAST SECTION/NEXT PROJECT */
+.sectionLast {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+}
+
+.sectionLast img {
+	width: 365px;
+	height: 264px;
+	margin: 25px;
+}
