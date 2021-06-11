@@ -20,6 +20,7 @@ body {
 #logo img {
 	border-radius: 15%;
     height: 50px;
+	width: 50px;
 }
 
 nav {
@@ -67,12 +68,14 @@ input {
     justify-content: center;
     align-items: center;
     width: 400px;
+
 }
 .veronica-about-desktop {
     color:#777777;
     text-align: left;
     /* margin: 0 500px; */
-	max-width: 500px;
+	max-width: 525px;
+	font-size: 14px;
 }
 .veronica-about-mobile {
     display: none;
@@ -90,10 +93,11 @@ input {
 .scrolldown {
 	display: flex;
     justify-content: center;
-	padding: 50px 0 100px 0;
+	/* padding: 50px 0 100px 0; */
 }
 .scroll-down {
 	height: 60px;
+	width: auto;
 }
 .case-studies img{
     width: 100%;
@@ -709,7 +713,7 @@ ul.bio-content {
 
   }
   img {
-	width: 244px;
+	/* width: 244px; */
     padding: 0 0 0 32px;
 	align-content: flex-end;
   }
