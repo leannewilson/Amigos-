@@ -11,14 +11,14 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	height: 37px;
-	width: 37px;
+	height: 20px;
+	width: 20px;
 	margin: 25px 0 0 50px;
 }
 
 #logo img {
 	border-radius: 15%;
-	width: 37px;
+	width: 17px;
 }
 
 /* Hamburger Menu */
@@ -268,8 +268,11 @@ footer ul{
     /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
 }
 
+
+
 .linkedin:hover{
     opacity: 0.7;
+
 }
 
 .twitter:hover{
@@ -281,19 +284,6 @@ footer{
 	justify-content: space-around;
 	align-items: center;
 }
-
-/*.scrollup a li ul footer{
-	width: 10px;
-	height: 10px;
-	background-size: 10px;
-	font-size: 3.75em;
-}*/
-
-
-/*.link{
-	background-image: url(./images/Original.png);
-}*/
-
 
 .about-me {
 	text-align: center;
@@ -775,43 +765,6 @@ img {
 img.cicons {
     width: 60px;
 }
-/* .rs-title h1{
-	font-size: 140px;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	line-height: 95%;
-	color: black;
-	margin-left: 15px;
-	margin-top: 150px;
-}  */
-/* 
-.dl-resume a{
-	width: 25%;
-	display: block;
-	margin-top: 0px;
-    margin-bottom: 86px;
-    padding: 11px 25px;
-    float: none;
-    border-radius: 4px;
-	background-color:tomato;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	text-align: center;
-	line-height: 24px;
-	font-weight: bold;
-	color: white;
-	font-weight: bold;
-    font-size: 20px;
-	margin-left: 15px;
-} */
-
-/* .resume-info p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-	font-size: 18px;
-	font-weight: bold;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	margin: 0px;
-} */
 
 /****************** CASE STUDY 1 PAGE *******************/
 .topPhoto1 {
